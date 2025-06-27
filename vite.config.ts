@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: mode === 'production' ? '/vijay-barber-style-site/' : '/',
+  base: mode === 'production' ? '/Hairdresser/' : '/',
   plugins: [
     react()
     // componentTagger removed
