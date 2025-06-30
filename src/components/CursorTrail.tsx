@@ -15,7 +15,7 @@ const CursorTrail = () => {
     let animationId: number;
     
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
+      setMousePosition({ x: e.clientX, y: e.clientY});
       
       setTrail(prevTrail => {
         const newPoint = { x: e.clientX, y: e.clientY, id: Date.now() };

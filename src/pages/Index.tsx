@@ -31,14 +31,14 @@ const Index = () => {
   const downloadPriceList = () => {
     toast({
       title: "Price List Download",
-      description: "Contact us at 9425667874 to get the latest price list PDF",
+      description: "Contact us at 446546465465 to get the latest price list PDF",
     });
   };
 
   const bookAppointment = () => {
     toast({
       title: "Book Appointment",
-      description: "Call us at 9425667874 or WhatsApp for instant booking!",
+      description: "Call us at 446546465465 or WhatsApp for instant booking!",
     });
   };
 
@@ -142,7 +142,7 @@ const Index = () => {
     {
       name: "Roshan chaouhan",
       rating: 5,
-      text: "Vijay has been cutting my hair for 10 years. Best barber hairdresser in the city!",
+      text: "Hair Dresser has been cutting my hair for 10 years. Best barber hairdresser in the city!",
       date: "2 weeks ago",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
     },
@@ -175,10 +175,10 @@ const Index = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, url: "https://facebook.com/vijayhairdresser", label: "Facebook" },
-    { icon: Instagram, url: "https://instagram.com/vijayhairdresser", label: "Instagram" },
-    { icon: Twitter, url: "https://twitter.com/vijayhairdresser", label: "Twitter" },
-    { icon: Youtube, url: "https://youtube.com/vijayhairdresser", label: "YouTube" }
+    { icon: Facebook, url: "https://facebook.com/hairdresser", label: "Facebook" },
+    { icon: Instagram, url: "https://instagram.com/hairdresser", label: "Instagram" },
+    { icon: Twitter, url: "https://twitter.com/hairdresser", label: "Twitter" },
+    { icon: Youtube, url: "https://youtube.com/hairdresser", label: "YouTube" }
   ];
 
   return (
@@ -190,11 +190,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-barber-terracotta">
-              Vijay Hair Dresser
+               Hair Dresser
             </div>
             
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-6">
+            <div className="hidden md:flex items-center space-x-5">
               {[
                 { name: 'Home', id: 'home' },
                 { name: 'About', id: 'about' },
@@ -222,7 +222,7 @@ const Index = () => {
                 className="ml-4 cursor-pointer"
               >
                 {isDarkMode ? '☀️' : '🌙'}
-              </Button>
+              </Button> 
             </div>
 
             {/* Mobile Menu Button */}
@@ -274,13 +274,13 @@ const Index = () => {
       
       
       {/* Hero Section with Slider */}
-      <section id="home" className="pt-20 pb-16 relative overflow-hidden">
+      <section id="home" className="pt-40 pb-16 relative overflow-hidden">
         <div className="absolute inset-0">
           {heroSlides.map((slide, index) => (
             <div
               key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
-                index === currentSlide ? 'opacity-30' : 'opacity-0'
+              className={`absolute inset-0 transition-opacity duration-100 ${
+                index === currentSlide ? 'opacity-80' : 'opacity-0'
               }`}
             >
               <img
@@ -341,7 +341,7 @@ const Index = () => {
         
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 animate-slide-in-left">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">About Vijay Hair Dresser</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">About Hair Dresser</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Preserving the art of traditional barber hairdressing for over two decades
             </p>
@@ -351,7 +351,7 @@ const Index = () => {
             <div className="animate-slide-in-left">
               <h3 className="text-2xl font-semibold mb-4 text-barber-desert">25 Years of Excellence</h3>
               <p className="text-muted-foreground mb-6">
-                Master Vijay began his journey in traditional barber hairdressing in 1998, learning ancient techniques 
+                Master began his journey in traditional barber hairdressing in 1998, learning ancient techniques 
                 passed down through generations. Today, he combines this rich cultural heritage with modern styling 
                 methods to create unique looks that honor tradition while embracing contemporary fashion.
               </p>
@@ -369,7 +369,7 @@ const Index = () => {
             <div className="animate-scale-in">
               <img 
                 src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=500&h=400&fit=crop"
-                alt="Master Vijay at work"
+                alt="Master at work"
                 className="rounded-lg shadow-lg hover-lift w-full h-80 object-cover"
               />
             </div>
@@ -509,7 +509,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <p className="text-lg leading-relaxed text-muted-foreground">
               In barber culture, hairdressing is more than just grooming - it's an art form that tells stories 
-              of heritage, family, and community. Master Vijay honors these traditions while bringing 
+              of heritage, family, and community. Master honors these traditions while bringing 
               them into the modern world, ensuring that each client receives not just a haircut, 
               but a connection to this beautiful cultural legacy.
             </p>
@@ -531,9 +531,9 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-barber-terracotta mr-3" />
-                  <span>9425667874</span>,  
-                  <span>6263719059</span>,
-                  <span>9752698482</span>
+                  <span>9465464654</span>,  
+                  <span>9644556654</span>,
+                  <span>9654464446</span>
                 </div>
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-barber-terracotta mr-3" />
@@ -541,14 +541,14 @@ const Index = () => {
                 </div>
                 <div className="flex items-center">
                   <MessageCircle className="h-5 w-5 text-barber-terracotta mr-3" />
-                  <span>WhatsApp: 9425667874, 6263719059</span>
+                  <span>WhatsApp: 9465464654, 9644556654</span>
                 </div>
               </div>
               
               <div className="mt-8">
                 <Button 
                   className="bg-green-500 hover:bg-green-600 text-white w-full mb-4 cursor-pointer"
-                  onClick={() => window.open('https://wa.me/9425667874', '_blank')}
+                  onClick={() => window.open('https://wa.me/9465464654', '_blank')}
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp Us
@@ -583,11 +583,11 @@ const Index = () => {
             
             <div className="animate-scale-in">
               <div className="bg-barber-sand/10 p-6 rounded-lg">
-                <h4 className="font-semibold mb-4">Visit Our Shop</h4>
+                <h4 className="font-semibold mb-4">Visit Our Shop</h4>               
                 <p className="text-muted-foreground mb-4">
-                      Vijay Hair Dresser, BDA Complex<br />
-                      Sector 9A, Saket Nagar,AIIMS Bhopal<br />
-                      Madhya Pradesh, India
+                  Hair Dresser, DDA Market<br />
+                  Sector 6, Pushp Vihar, Saket<br />
+                  New Delhi, India
                 </p>
                 <div className="bg-barber-terracotta/10 p-4 rounded border border-barber-terracotta/20">
                   <p className="text-sm text-center">
@@ -604,10 +604,10 @@ const Index = () => {
       <footer className="bg-barber-desert text-white py-8">
         
         <div className="container mx-auto px-4 text-center">
-          <div className="text-2xl font-bold mb-4">Vijay Hair Dresser</div>
+          <div className="text-2xl font-bold mb-4">Hair Dresser</div>
           <p className="text-barber-sand mb-4">Preserving barber heritage through exceptional hairdressing</p>
           <div className="flex justify-center space-x-6 text-sm mb-4">
-            <span>© 2024 Vijay Hair Dresser</span>
+            <span>© 2024 Hair Dresser</span>
             <span>•</span>
             <span>25 Years of Excellence</span>
             <span>•</span>
@@ -632,7 +632,7 @@ const Index = () => {
       {/* Floating WhatsApp Button */}
       <Button
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg animate-float z-40 cursor-pointer"
-        onClick={() => window.open('https://wa.me/9425667874', '_blank')}
+        onClick={() => window.open('https://wa.me/9465464654', '_blank')}
       >
         <MessageCircle className="h-6 w-6" />
       </Button>
